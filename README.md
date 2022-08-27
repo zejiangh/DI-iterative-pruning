@@ -109,7 +109,7 @@ python ./multiproc.py --nproc_per_node 8 ./main.py /data/imagenet \
 * `--pretrained-weights`: set to the pruned model checkpoint obtained from the second stage.
 
 ### Checkpoints
-We provide our compressed ResNet-50 models on ImageNe:
+We provide our compressed ResNet-50 models on ImageNet:
 
 <table>
   <tr>
@@ -133,7 +133,7 @@ We provide our compressed ResNet-50 models on ImageNe:
 
 #### Evaluation
 
-* Example of evaluating the compressed ResNet-50 on ImageNet-1K:
+Example of evaluating the compressed ResNet-50 on ImageNet-1K:
 
 ```Shell
 CUDA_VISIBLE_DEVICES=0 python ./main.py /data/imagenet \
