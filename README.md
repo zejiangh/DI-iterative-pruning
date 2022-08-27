@@ -1,6 +1,6 @@
 # Augment deep BP-parameter learning with local XAI-structural learning
 
-This repository contains the PyTorch implementation of the paper [Augment deep BP-parameter learning with local XAI-structural learning](https://www.intlpress.com/site/pub/files/_fulltext/journals/cis/2020/0020/0003/CIS-2020-0020-0003-a003.pdf).
+This repository contains the PyTorch implementation of the paper [Augment deep BP-parameter learning with local XAI-structural learning](https://www.intlpress.com/site/pub/files/_fulltext/journals/cis/2020/0020/0003/CIS-2020-0020-0003-a003.pdf) (Communications in Information and Systems).
 
 ### Highlight
 Neural network pruning has become the de facto tool to accelerate deep neural networks for mobile and edge applications. We consider feature-map discriminant based channel pruning, as it aligns well with the CNN’s objective of differentiating multiple classes and offers better interpretability of the pruning decision. However, previous discriminant based methods are challenged by computation inefficiency, as there is a lack of theoretical guidance on quantifying the feature-map discriminant power. We develop a mathematical formulation to accurately and efficiently quantify the feature-map discriminativeness, based on which we can identify and remove those channels with minimum influence to the discriminant power. We propose an iterativee pruning algorithm to automatically evolve the model structure to satisfy the resource budget.
