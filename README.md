@@ -121,7 +121,7 @@ We provide our compressed ResNet-50 models on ImageNet:
   <tr>
     <td rowspan="2">ResNet-50</td>
     <td>78.3%</td>
-    <td>27%</td>td>
+    <td>27%</td>
     <td><a href="">resnet50_3GFLOPS.pth.tar</a></td>   
   </tr>
   <tr>
